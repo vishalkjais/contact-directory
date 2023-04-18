@@ -9,6 +9,6 @@ const homeController=require('../controllers/home_controller');
 
  router.use('/users',require('./users'));
  // self written
- //router.use('/post',require('./post'));
+ router.use('/post',require('./post'));
 
 module.exports=router;
